@@ -11,7 +11,7 @@ There are TWO functions that work together to accomplish a Merge Sort:
 
 -  A `merge_sort` function that takes an array, splits the array in two, calls `merge_sort` to sort each half of the array, and then calls a `merge` function to put the sorted halves back together.  The `merge_sort` function **is recursive**, so think about a "base case".
 
--  A `merge` function that takes two arrays as parameters, and combines them to create one sorted list . The `merge` function **is not recursive**.
+-  A `merge` function that takes two arrays as parameters, and combines them to create one sorted list . The `merge` function **can be either iterative or recursive**. We're going to work on the iterative case first.
 
 *Note: the merge sort algorithm can also be implemented with iterative (non-recursive) code, but it is significantly harder.*
 
