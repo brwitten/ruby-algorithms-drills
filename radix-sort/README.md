@@ -72,5 +72,6 @@ If we had numbers in our array that had 4 digits, we would have to do this itera
 Resources:
 
 - [wiki](https://en.wikipedia.org/wiki/Radix_sort)
+- [More details](http://www.stoimen.com/blog/2012/03/19/computer-algorithms-radix-sort/)
 - [visual radix (see radix)](https://visualgo.net/sorting)
 - [another visualization](https://www.cs.usfca.edu/~galles/visualization/RadixSort.html)
