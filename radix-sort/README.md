@@ -11,17 +11,17 @@ What if we had this set of numbers?
 Let's start with the 1's place digits. So that would be a value of 3 for 493, 2 for 812, and so on. We group them in "buckets". Visually, that looks like this:
 
 | 1's Digit       | numbers         |
-| ------------- |:-------------:| 
-| 0   | 340, 710 | 
-| 1   |  | 
-| 2| 812, 582 | 
-| 3| 493    | 
-| 4| | 
-| 5| 715,195, 385 | 
-| 6| | 
-| 7|  437     | 
-| 8|      | 
-| 9|      | 
+| ------------- |:-------------:|
+| 0   | 340, 710 |
+| 1   |  |
+| 2| 812, 582 |
+| 3| 493    |
+| 4| |
+| 5| 715,195, 385 |
+| 6| |
+| 7|  437     |
+| 8|      |
+| 9|      |
 
 Now our array looks like this:
 
@@ -31,17 +31,17 @@ Great. Next, we do the same thing, but with the 10's digit:
 
 
 | 10's Digit       | numbers         |
-| ------------- |:-------------:| 
-| 0   |  | 
-| 1   | 710, 812, 715 | 
-| 2|  | 
-| 3|  437  | 
-| 4| 340 | 
-| 5|  | 
-| 6| | 
-| 7|       | 
-| 8|  582, 385    | 
-| 9|   493, 195   | 
+| ------------- |:-------------:|
+| 0   |  |
+| 1   | 710, 812, 715 |
+| 2|  |
+| 3|  437  |
+| 4| 340 |
+| 5|  |
+| 6| |
+| 7|       |
+| 8|  582, 385    |
+| 9|   493, 195   |
 
 And our new array based on this:
 
@@ -50,17 +50,17 @@ And our new array based on this:
 And now the hundred's digit:
 
 | 100's Digit       | numbers         |
-| ------------- |:-------------:| 
-| 0   |  | 
-| 1   | 195 | 
-| 2|  | 
-| 3| 340, 385   | 
-| 4| 437, 493 | 
-| 5| 582 | 
-| 6| | 
-| 7|  710,715     | 
-| 8|  812    | 
-| 9|      | 
+| ------------- |:-------------:|
+| 0   |  |
+| 1   | 195 |
+| 2|  |
+| 3| 340, 385   |
+| 4| 437, 493 |
+| 5| 582 |
+| 6| |
+| 7|  710,715     |
+| 8|  812    |
+| 9|      |
 
 And our array is sorted! Pretty slick, huh?
 
