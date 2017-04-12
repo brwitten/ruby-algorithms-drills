@@ -36,13 +36,6 @@ class Node
   end
 end
 
-def print_linked_list head
-  while head.val && head.next != nil do
-    print "#{head.val} "
-    head = head.next
-  end
-  print "#{head.val} " #end of list
-end
 ```
 
 In addition, there is a helper function that allows you to print out a given linked list in a nice format. Feel free to check it out in the starter code.
