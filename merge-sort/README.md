@@ -1,6 +1,6 @@
-##Merge sort!
+## Merge sort!
 
-###Why Merge Sort?
+### Why Merge Sort?
 Merge sort is the first powerful sorting algorithm that you will encounter in the wilds of the real world (baked into Safari and Firefox.)  It uses an extremely efficient application of the "Divide and Conquer" concept to lists of elements.
 
 Merge Sort works on the basic principal of dividing your list into sub-lists (recursively) until your sub-lists are short enough to sort quickly with another strategy.  Once you have small sorted sub-lists, you carefully merge them back together into one, creating a sorted version of your original lists.
@@ -15,7 +15,7 @@ There are TWO functions that work together to accomplish a Merge Sort:
 
 *Note: the merge sort algorithm can also be implemented with iterative (non-recursive) code, but it is significantly harder.*
 
-###Make your own merge sort implementation!
+### Make your own merge sort implementation!
 Create a `merge_sort` that will sort a list of student names from this class!
 
 ```ruby
