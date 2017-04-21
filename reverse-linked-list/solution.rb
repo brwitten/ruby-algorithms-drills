@@ -16,15 +16,15 @@ def print_linked_list head
 end
 
 def reverse_linked_list head
-    reversedPart = Node.new(nil,nil)
+    reversed_part = Node.new(nil,nil)
     current = head
     while current != nil do
       next_node = current.next
-      current.next = reversedPart
-      reversedPart = current
+      current.next = reversed_part
+      reversed_part = current
       current = next_node
   end
-  head = reversedPart
+  head = reversed_part
   puts print_linked_list head
   head
 end
