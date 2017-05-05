@@ -12,20 +12,18 @@ end
 
 def cats_in_hats
     cats = initialize_cats
-    100.times { |x|
+    100.times { |num|
         i = 1
         while i < cats.length
-            if cats[i + x] == "no hat"
-                cats[i + x] = "hat"
-            elsif cats[i + x] == "hat"
-                cats[i + x] = "no hat"
+            if cats[i + num] == "no hat"
+                cats[i + num] = "hat"
+            elsif cats[i + num] == "hat"
+                cats[i + num] = "no hat"
             end
             i += 1
         end
     }
-
     cats.select { |k,v| v == "hat" }
 end
-
 
 puts cats_in_hats
