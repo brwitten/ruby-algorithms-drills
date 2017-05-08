@@ -47,5 +47,4 @@ end
     cats.select { |k,v| v == "hat" }
 end
 
->>>>>>> 162c125721e96ddaa7624d6be7034a7b13726457
 puts cats_in_hats
