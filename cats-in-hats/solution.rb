@@ -10,40 +10,37 @@ def initialize_cats
     cats
 end
 
+# # alternate way
 def cats_in_hats
     cats = initialize_cats
-    100.times { |num|
-        i = 1
-        while i < cats.length
-            if cats[i + num] == "no hat"
-                cats[i + num] = "hat"
-            elsif cats[i + num] == "hat"
-                cats[i + num] = "no hat"
+    counter = 1
+    while counter <= 100 do
+            i = counter
+            while(i <= 100)
+            if cats[i] == "no hat"
+                cats[i] = "hat"
+            elsif cats[i] == "hat"
+                cats[i] = "no hat"
             end
-            i += 1
+            i += counter
         end
-    }
+        counter += 1
+    end
+
     cats.select { |k,v| v == "hat" }
 end
 
-# alternate way
+#clever alternative
 # def cats_in_hats
-#     cats = initialize_cats
-#     counter = 0
-#     while counter < 100 do
-#         i = 1
-#         while i < cats.length
-#             if cats[i + counter] == "no hat"
-#                 cats[i + counter] = "hat"
-#             elsif cats[i + counter] == "hat"
-#                 cats[i + counter] = "no hat"
-#             end
-#             i += 1
+#     counter = 1;
+#     with_hats = [];
+#     while counter <= 100
+#         if Math.sqrt(counter) % 1 == 0
+#             with_hats.push(counter)
 #         end
 #         counter += 1
 #     end
-# 
-#     cats.select { |k,v| v == "hat" }
+#     return with_hats
 # end
 
 puts cats_in_hats
