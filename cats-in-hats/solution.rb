@@ -10,7 +10,7 @@ def initialize_cats
     cats
 end
 
-# # alternate way
+#actual algo
 def cats_in_hats
     cats = initialize_cats
     counter = 1
@@ -43,4 +43,9 @@ end
 #     return with_hats
 # end
 
+
+    cats.select { |k,v| v == "hat" }
+end
+
+>>>>>>> 162c125721e96ddaa7624d6be7034a7b13726457
 puts cats_in_hats
