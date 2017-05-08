@@ -14,7 +14,7 @@ end
 def cats_in_hats
     cats = initialize_cats
     counter = 1
-    while counter < 100 do
+    while counter <= 100 do
             i = counter
             while(i <= 100)
             if cats[i] == "no hat"
