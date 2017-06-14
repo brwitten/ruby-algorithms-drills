@@ -21,7 +21,7 @@ def radix_sort(array)
 	result
 end
 
-#alternate solution
+#alternate solution works only for all same word length input
 # def radix_sort(array)
 #   passes = (array.max == 0) ? 1 : Math.log10(array.max).to_i + 1
 #   new_list = []
