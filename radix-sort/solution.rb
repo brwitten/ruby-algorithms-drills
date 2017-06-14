@@ -1,5 +1,5 @@
 def radix_sort(array)
-  passes = (array.max == 0) ? 1 : Math.log10(array.max).to_i + 1
+  passes = (array.max == 0) ? 1 : array.max.to_s.length
   new_list = []
   passes.times do |i|
     buckets = make_buckets
